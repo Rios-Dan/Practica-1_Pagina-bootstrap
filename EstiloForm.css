@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("IMG/DefqonFormulario.jpeg"); /*Aqui le estamos haciendo un poco oscura la imagen*/
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  width: 45% !important;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 150px !important;
+  background-color: transparent !important;
+  padding: 40px 50px;
+  backdrop-filter: blur(5px);
+}
+
+.btn-primary {
+  width: 100%;
+  border-color: white;
+  border: 1px solid;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #ed252f;
+  border-color: #4d090c;
+}
+
+.form-control {
+  display: block;
+  height: 45px;
+  width: 100%;
+  color: white;
+  border-bottom-color: whitesmoke;
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+}
+.form-control:focus {
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-size: 2rem !important;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-label {
+  color: white;
+  font-weight: 800 !important;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #ed252f;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 65% !important;
+  }
+}
